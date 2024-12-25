@@ -31,7 +31,7 @@ const Header = () => {
       align="center"
       boxShadow="0 1px 0 #ccc"
       color="gray.500"
-      fontWeight="poppins bold"
+      fontWeight="bold"
     >
       {isMobile && (
         <IconButton
@@ -46,7 +46,7 @@ const Header = () => {
       <Flex ml="auto">
         <HStack>
           <Text>Tancredo Eduardo</Text>
-          <Avatar size="md" name="william Lucas" />
+          <Avatar size="md" name="tancredo Eduardo" />
         </HStack>
       </Flex>
     </Flex>
